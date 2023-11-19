@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="weather-container">
+    <h2>Weather in <span id="city"><img src="/pics/loading.gif" alt="Loading..."></span></h2>
+    <div style='text-align: center;'>
+      <img class="weather-icon" id="icon" src="/pics/loading.gif" alt="Loading...">
+    </div>
+    <div class="cont-all">
+
+      <div class="weather-detail-scroll">
+
+        <div class="weather-detail">
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <img src="pics/temperature.png" />
+            Temperature:
+          </div>
+          <span id="temp"><img src="/pics/loading.gif" alt="Loading..."></span>
+        </div>
+
+        <div class="weather-detail">
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <img src="pics/registration.png" />
+            Description:
+          </div>
+          <span id="description"><img src="/pics/loading.gif" alt="Loading..."></span>
+        </div>
+
+        <div class="weather-detail">
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <img src="pics/drop.png" />
+            Humidity:
+          </div> <span id="humidity"><img src="/pics/loading.gif" alt="Loading..."></span>
+        </div>
+
+      </div>
+
+      <div class="weather-detail-scroll">
+        <div class="weather-detail">
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <img src="pics/speedometer.png" />
+            Min:
+          </div> <span id="temp-min"><img src="/pics/loading.gif" alt="Loading..."></span>
+        </div>
+        <div class="weather-detail">
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <img src="pics/speedometer (1).png" />
+            Max:
+          </div> <span id="temp-max"><img src="/pics/loading.gif" alt="Loading..."></span>
+        </div>
+
+        <div class="weather-detail">
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <img src="pics/storm.png" />
+            Wind Speed:
+          </div> <span id="wind"><img src="/pics/loading.gif" alt="Loading..."></span>
+        </div>
+      </div>
+
+      <div class="weather-detail-scroll">
+        <div class="weather-detail">
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <img src="pics/cloudy.png" />
+            Cloudiness:
+          </div> <span id="cloudiness"><img src="/pics/loading.gif" alt="Loading..."></span>
+        </div>
+
+        <div class="weather-detail">
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <img src="pics/visible.png" />
+            Visibility:
+          </div> <span id="visibility"><img src="/pics/loading.gif" alt="Loading..."></span>
+        </div>
+        <div class="weather-detail">
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <img src="pics/pressure.png" />
+            Pressure:
+          </div> <span id="pressure"><img src="/pics/loading.gif" alt="Loading..."></span>
+        </div>
+
+      </div>
+
+      <div class="weather-detail-scroll">
+
+        <div class="weather-detail">
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <img src="pics/sunrise.png" />
+            Sunrise:
+          </div> <span id="sunrise"><img src="/pics/loading.gif" alt="Loading..."></span>
+        </div>
+        <div class="weather-detail">
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <img src="pics/sunset.png" />
+            Sunset:
+          </div> <span id="sunset"><img src="/pics/loading.gif" alt="Loading..."></span>
+        </div>
+
+        <div class="weather-detail">
+          <div style="display: flex; align-items: center; gap: 5px;">
+            <img src="pics/updated.png" />
+            Last updated:
+          </div> <span id="last-update"><img src="/pics/loading.gif" alt="Loading..."></span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
